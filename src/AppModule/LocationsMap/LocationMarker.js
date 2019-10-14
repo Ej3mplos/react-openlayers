@@ -1,5 +1,5 @@
 import React      from 'react';
-import { Marker } from 'google-maps-react';
+
 import store      from './../General/Store';
 
 
@@ -22,22 +22,22 @@ import store      from './../General/Store';
  * 
  * Redux store suscribe:
  * https://es.redux.js.org/docs/basico/store.html
- */
-let markersReferences = {};
-let googleRef         = {};
-let lastLocation      = null;
-
-store.subscribe(() => {
-    let {locationDetails} = store.getState();
-    
-    if (locationDetails in markersReferences) {
-        if (lastLocation) lastLocation.marker.setAnimation(null);
-        lastLocation = markersReferences[locationDetails]
-        if (lastLocation) lastLocation.marker.setAnimation( googleRef.maps.Animation.BOUNCE);
-    } else {
-        if (lastLocation) lastLocation.marker.setAnimation(null);
-    }
-});
+// */
+//let markersReferences = {};
+//let googleRef         = {};
+//let lastLocation      = null;
+//
+//store.subscribe(() => {
+//    let {locationDetails} = store.getState();
+//    
+//    if (locationDetails in markersReferences) {
+//        if (lastLocation) lastLocation.marker.setAnimation(null);
+//        lastLocation = markersReferences[locationDetails]
+//        if (lastLocation) lastLocation.marker.setAnimation( googleRef.maps.Animation.BOUNCE);
+//    } else {
+//        if (lastLocation) lastLocation.marker.setAnimation(null);
+//    }
+//});
 
 /**
  * Represent the commerce marker.
@@ -45,21 +45,21 @@ store.subscribe(() => {
  * @author Ricardo Bermúdez Bermúdez
  * @since  Oct 10, 2019.
  * @returns {React.Component<Marker>}
- */
-export const LocationMarker = (
-  {idStore, lat, lng, iconLink}, google, showLocationDetails,
-) => {
-    googleRef = google;
-    
-    return <Marker
-      ref={e => markersReferences[idStore]=e}
-      key = {idStore}
-      position={{lat,lng}}
-      onClick={() => showLocationDetails(idStore)}
-      animation={googleRef.maps.Animation.DROP}
-      icon={{
-        url: iconLink,
-        anchor: new google.maps.Point(28,28),
-        scaledSize: new google.maps.Size(28,28)
-      }} />;
-}
+// */
+//export const LocationMarker = (
+//  {idStore, lat, lng, iconLink}, google, showLocationDetails,
+//) => {
+//    googleRef = google;
+//    
+//    return <Marker
+//      ref={e => markersReferences[idStore]=e}
+//      key = {idStore}
+//      position={{lat,lng}}
+//      onClick={() => showLocationDetails(idStore)}
+//      animation={googleRef.maps.Animation.DROP}
+//      icon={{
+//        url: iconLink,
+//        anchor: new google.maps.Point(28,28),
+//        scaledSize: new google.maps.Size(28,28)
+//      }} />;
+//}

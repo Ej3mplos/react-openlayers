@@ -18,12 +18,13 @@ export const applyFilters = (locations, filters, userPosition) =>
   filters.size 
   ?locations.reduce( (acc, location) => 
      location.type.reduce( (flag, type) => flag || filters.has(type), false)
-     && radius_threshold(location, userPosition)
+     //&& radius_threshold(location, userPosition)
      ?acc.concat(location)
      :acc,
    [])
-  :locations.reduce( (acc, location) => 
-    (radius_threshold(location, userPosition))
-    ?acc.concat(location)
-    :acc,
-  []);
+   :locations
+  //:locations.reduce( (acc, location) => 
+  //  radius_threshold(location, userPosition)
+  //  ?acc.concat(location)
+  //  :acc,
+  //[]);
