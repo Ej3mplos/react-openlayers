@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 
-import LocationsMap    from './LocationsMap'
 import LocationsFilter from './LocationsFilter'
 import DetailsCard     from './LocationDetails/DetailsCard';
 import { updateUserPos } from './General/Store/UserPosition'
+import OLMapComponent from './General/OpenLayersMap/OLMapComponent';
 
 
 /**
@@ -41,7 +41,7 @@ class App extends React.Component{
 
   render = () => 
     <React.Fragment>
-      <LocationsMap/>
+      <OLMapComponent markers={[]}/>
       <div className={`layout ${this.state.layoutDown?'--down':''}`}>
         <LocationsFilter {...this.swipeActions()}/>
         <DetailsCard/>
