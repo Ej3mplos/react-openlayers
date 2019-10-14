@@ -1,0 +1,35 @@
+/** https://sass-lang.com/documentation/at-rules/mixin Mixins en Sass*/
+
+/**
+ * Use this mixin to set the width and height of a HTML element vía CSS rules.
+ * 
+ * @author Ricardo Bermúdez Bermúdez
+ * @since  7th Oct, 2019.
+ * @param  $with With of container.
+ * @param  $height Height of container.
+ */
+@mixin size($w, $h) {
+  width:  $w;
+  height: $h;
+}
+
+@mixin pos-top-origin() {
+  top:  0;
+  left: 0;
+}
+
+@mixin pos-bottom-origin() {
+  bottom: 0;
+  left:   0;
+}
+
+@mixin layout-flex(
+  $direction,
+  $crossAxisConf: normal,
+  $mainAxisConf: normal,
+) {
+    display: flex;
+    @if ($direction!=row)        { flex-direction: $direction; }
+    @if ($crossAxisConf!=normal) { align-items: $crossAxisConf; }
+    @if ($mainAxisConf!=normal)  { justify-content: $mainAxisConf; }
+}

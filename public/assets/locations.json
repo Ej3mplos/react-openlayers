@@ -1,0 +1,306 @@
+[
+  {
+    "idStore": "1",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce", "promotions"],
+    "address": "San Francisco 1621, Col del Valle Sur, 03100, CDMX.",
+    "lat": 19.3723122,
+    "lng": -99.1783441,
+    "promotions": [
+      {
+        "idPromo": "1",
+        "title": "Se saludable",
+        "description": "50% de descuento en frutas y verduras.",
+        "link": "https://www.walmart.com.mx/",
+        "imageLink": "..."
+      },
+      {
+        "idPromo": "2",
+        "title": "Mes patrio",
+        "description": "Refrescos y frituras al 2x1",
+        "link": "https://www.walmart.com.mx/",
+        "imageLink": "..."
+      },
+      {
+        "idPromo": "3",
+        "title": "¡Ejercitate!",
+        "description": "15% de descuento en la compra de equipo de gimnasio",
+        "link": "https://www.walmart.com.mx/",
+        "imageLink": "..."
+      },
+      {
+        "idPromo": "4",
+        "title": "La navidad se acerca",
+        "description": "Esferas al 3x1",
+        "link": "https://www.walmart.com.mx/",
+        "imageLink": "..."
+      }
+    ]
+  },
+  {
+    "idStore":"2",
+    "title":"Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["add-credit", "get-cash"],
+    "address": "Avenida Patriotismo 299, San Pedro de los Pinos, 03800, CDMX.",
+    "lat": 19.393751,
+    "lng": -99.1838711,
+    "promotions":[]
+  },
+  {
+    "idStore":"3",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "Av de los Insurgentes Sur 1870, Florida, 01030, CDMX.",
+    "lat": 19.3546926,
+    "lng": -99.1871566,
+    "promotions":[]
+  },
+  {
+    "idStore":"4",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "Cto. Interior Mtro. José Vasconcelos 106, San Miguel Chapultepec I Secc, 11850, CDMX.",
+    "lat": 19.4101111,
+    "lng": -99.1842156,
+    "promotions":[]
+  },
+    {
+      "idStore": "5",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Blvd. Adolfo López Mateos 1701, Lomas de Plateros, 1480, CDMX.",
+    "lat": 19.3696824,
+    "lng": -99.1955068,
+    "promotions": []
+  },
+    {
+      "idStore": "6",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Av. Universidad 936 A, Sta Cruz Atoyac, 03310, CDMX.",
+    "lat": 19.3683049,
+    "lng": -99.1651001,
+    "promotions": []
+  },
+    {
+      "idStore": "7",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Calz. de Tlalpan 1037, Américas Unidas, 03500, CDMX.",
+    "lat": 19.380356,
+    "lng": -99.1433071,
+    "promotions": []
+  },
+    {
+      "idStore": "8",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Av. Revolución 1083, Los Alpes, 01010, CDMX.",
+    "lat": 19.3673187,
+    "lng": -99.1909333,
+    "promotions": []
+  },
+    {
+      "idStore": "9",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Av. Insurgentes Nte. 131, Buenavista, 06300, CDMX.",
+    "lat": 19.4434817,
+    "lng": -99.1555219,
+    "promotions": []
+  },
+    {
+      "idStore": "10",
+    "title": "Walmart",
+    "iconLink": "assets/walmart-pin.png",
+    "logoLink": "assets/walmart-logo.png",
+    "type": ["commerce"],
+    "address": "Perif. Blvd. Manuel Ávila Camacho 491, Periodista, 11220, CDMX.",
+    "lat": 19.4494404,
+    "lng": -99.2196246,
+    "promotions": []
+  },
+  {
+    "idStore":"11",
+    "title": "Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["get-cash"],
+    "address": "Perif. Blvd. Manuel Ávila Camacho 631, Periodista, 11220, CDMX.",
+    "lat": 19.44933,
+    "lng": -99.2198015,
+    "promotions":[]
+  },
+  {
+    "idStore":"12",
+    "title": "Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["add-credit","get-cash"],
+    "address": "Tennyson No. 120, Polanco, Reforma Polanco, 11560, CDMX.",
+    "lat": 19.4319174,
+    "lng": -99.1952461,
+    "promotions":[]
+  },
+  {
+    "idStore":"13",
+    "title": "Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["add-credit","get-cash"],
+    "address": "Avenida Patriotismo 299, San Pedro de los Pinos, 03800, CDMX.",
+    "lat": 19.393751,
+    "lng": -99.1838711,
+    "promotions":[]
+  },
+  {
+    "idStore":"14",
+    "title": "Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["add-credit","get-cash"],
+    "address": "San Luis Potosí 138, Roma Nte., 06700, CDMX.",
+    "lat": 19.4135628,
+    "lng": -99.1632962,
+    "promotions":[]
+  },
+  {
+    "idStore":"15",
+    "title": "Inbursa",
+    "iconLink": "assets/inbursa-pin.png",
+    "logoLink": "assets/inbursa-logo.png",
+    "type": ["add-credit","get-cash"],
+    "address": "Eje 1 Nte. 259, Buenavista, 06350, CDMX.",
+    "lat": 19.4489654,
+    "lng": -99.1540396,
+    "promotions":[]
+  },
+  {
+    "idStore":"16",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "Av. Insurgentes Sur, Col del Valle Nte, 03103, CDMX.",
+    "lat": 19.3549832,
+    "lng": -99.1871585,
+    "promotions":[]
+  },
+  {
+    "idStore":"17",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "Av. Insurgentes Sur 499, Hipódromo, 06100, CDMX.",
+    "lat": 19.403756,
+    "lng": -99.1716347,
+    "promotions":[]
+  },
+  {
+    "idStore":"18",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "Av. José Martí 262, Escandón II Secc, 11800, CDMX.",
+    "lat": 19.4006092,
+    "lng": -99.1751475,
+    "promotions":[]
+  },
+  {
+    "idStore":"19",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "José Guadalupe Covarrubias Esquina Calle Av Jalisco 5, Tacubaya, 11870, CDMX.",
+    "lat": 19.4066365,
+    "lng": -99.185083,
+    "promotions":[]
+  },
+  {
+    "idStore":"20",
+    "title":"Seven Eleven",
+    "iconLink": "assets/seven-eleven-pin.png",
+    "logoLink": "assets/7-eleven-logo.png",
+    "type": ["commerce", "get-cash"],
+    "address": "Avenida Prado Norte 864, Lomas - Virreyes, Lomas de Chapultepec, 11000, CDMX.",
+    "lat": 19.4275514,
+    "lng": -99.2106477,
+    "promotions":[]
+  },
+  {
+    "idStore":"21",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "Londres 130, Juárez, 06600, CDMX.",
+    "lat": 19.4251117,
+    "lng": -99.1663777,
+    "promotions":[]
+  },
+  {
+    "idStore":"22",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "Calle Lago Zurich No. 245, Amp Granada, 11529, CDMX.",
+    "lat": 19.4416454,
+    "lng": -99.2389226,
+    "promotions":[]
+  },
+  {
+    "idStore":"23",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "Av. Insurgentes Nte. 70, Sta María la Ribera, 06400, CDMX.",
+    "lat": 19.4416454,
+    "lng": -99.2389226,
+    "promotions":[]
+  },
+  {
+    "idStore":"24",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "Eje 1 Pte, C. U. Benito Juárez, 06760, CDMX.",
+    "lat": 19.4431262,
+    "lng": -99.1501547,
+    "promotions":[]
+  },
+  {
+    "idStore":"25",
+    "title": "Sanborns",
+    "iconLink": "assets/sanborns-pin.png",
+    "logoLink": "assets/sanborns-logo.png",
+    "type": ["commerce"],
+    "address": "WORD TRADE CENTER, Montecito No. 38. 38, Nápoles, 03810, CDMX.",
+    "lat": 19.393664,
+    "lng": -99.1745978,
+    "promotions":[]
+  }
+]

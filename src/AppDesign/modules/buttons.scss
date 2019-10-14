@@ -1,0 +1,13 @@
+
+.button {
+    &.--main {
+      font-family: 'Roboto';
+      font-weight: bold;
+      font-size: 16px;
+      background: #333;
+      color: white;
+      border: none;
+      @include size(100px, 34px);
+      border-radius: 18px;
+    }
+}

@@ -1,0 +1,27 @@
+
+.layout {
+  @include pos-bottom-origin();
+  @include layout-flex(column-reverse, center);
+  background: transparent;
+  width: 100vw;
+  position: fixed;
+  transition: bottom 0.16s ease-out 0s;
+}
+
+.layout > div {
+  @include layout-flex(row, normal, center);
+}
+
+.layout.--down {
+  bottom: -110px;
+}
+
+  /** [2] */
+  //position: relative;
+  //bottom: -112px;
+  //transition: bottom 0.2s ease-in-out 0s;
+  //
+  //&.--is-active {
+  //  position: relative; 
+  //  bottom: 0px;
+  //}

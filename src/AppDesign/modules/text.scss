@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  #TEXTS
+\*------------------------------------*/
+
+.text--abstract {
+  text-align: center;
+  color: $text_third_order;
+  font-size: 12px;
+  font-family: 'Roboto Regular', sans-serif;
+  letter-spacing: 0;
+}
+
+.text--note {
+  text-align: center;
+  vertical-align: middle;
+  color: $text_note;
+  font-size: 10px;
+  font-family: 'Roboto Regular', sans-serif;
+}
+
+.text--content {
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  color: $text_second_order;
+  font-size: 12px;
+  letter-spacing: 0;
+  opacity: 0.7;
+  margin: 0px;
+}

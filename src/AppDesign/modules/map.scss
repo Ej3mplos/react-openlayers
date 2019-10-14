@@ -1,0 +1,9 @@
+/*------------------------------------*\
+  #MAP-COMPONENT
+\*------------------------------------*/
+
+.map {
+  @include size(100vw, 100vh);
+  @include pos-top-origin();
+  position: absolute;
+}

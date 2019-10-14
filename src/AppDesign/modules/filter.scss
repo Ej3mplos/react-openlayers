@@ -1,0 +1,87 @@
+/*------------------------------------*\
+  #FILTER-MARKERS-BAR
+\*------------------------------------*/
+
+/** 
+ * 1 - FILTER. The main container.
+ * 
+ * Author: Ricardo Bermúdez Bermúdez
+ * Since:  Oct 9th, 2019.
+ * 
+ * [1] Design section.
+ * [2] State of filter managment (filter up or filter down).
+ */
+.filter {
+  @include size(100vw, 150px);
+  @include layout-flex(column, center);
+  
+  /** [1] */
+  background: $primary_color;
+  border-radius: 24px 24px 0 0;
+  box-shadow: $card_shadow;
+}
+
+  /**
+   * BUTTON DRAG. Represents the UI drag element used to show or hidden filter.
+   * 
+   * [1] Design section.
+   */
+  .filter__btn-drag {
+    @include size(57.4px, 2.9px);
+    margin-top: 20px;
+    /** [1] */
+    background: $secondary_light_color;
+    border-radius: 2px;
+  }
+
+  /**
+   * FILTER INSTRUCTION. Configure the use instruction text of filter menu.
+   */
+  .filter .text--abstract {
+    margin-top: 16px;
+  }
+  
+  /** 
+   * FILTER BUTTONS BAR. Wrap the buttons of filter.
+   */
+  .filter__btn-bar {
+    @include size(calc(100vw - 25px), 80px);
+    @include layout-flex(row, center, space-between);
+  }
+
+    /**
+     * BUTTON SEPARATOR.
+     */
+    .filter__btn-sep {
+      @include size(1px, 65px);
+      background: #cdcdcd;
+      opacity: 0.5;
+      border-radius: 23px;
+    }
+
+    /**
+     * FILTER BUTTON.
+     * 
+     * [1] Button state managment (when button is press or not)
+     */
+    .filter__btn-filter {
+      @include layout-flex(column, center, center);
+      @include size(20vw, 75px);
+      border-radius: 5px;
+      
+      /** [1] */
+      background: transparent;
+      transition: background 0.25s ease-in-out 0s;
+      &.--is-active{ background: #F7F7F7; }
+
+      .icon--svg {
+        min-width:  33px;
+        min-height: 32px;
+      }
+      
+      .text--note {
+        @include size(50px, 22px);
+        @include layout-flex(row, center, center);
+        margin: 5px 0 0 0;
+      }
+    }
