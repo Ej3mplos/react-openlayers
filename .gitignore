@@ -24,3 +24,5 @@ yarn-error.log*
 
 #Environtment constants
 /src/env.js
+
+#Add temporal line
